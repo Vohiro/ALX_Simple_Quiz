@@ -4,9 +4,9 @@ function checkAnswer () {
     const userAnswer = selectedOption.value;
 
     if (userAnswer === correctAnswer) {
-        document.getElementById("feedback").textContent = "Correct! Welldone"
+        document.getElementById("feedback").textContent = "Correct! welldone."
     } else {
-        document.getElementById("feedback").textContent = "Incorrect Answer!"
+        document.getElementById("feedback").textContent = "That's incorrect. Try again!"
     }
 }
 
